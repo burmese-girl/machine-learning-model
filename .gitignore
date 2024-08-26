@@ -5,15 +5,6 @@ __pycache__/
 *.pyd
 *.env
 
-# Django
-*.log
-*.pot
-*.pyc
-*.sqlite3
-*.db
-media/
-staticfiles/
-
 # Environment Variables
 .env
 
@@ -26,8 +17,6 @@ venv/
 .vscode/
 .DS_Store
 
-# Django Migrations
-**/migrations/*
 
 # Byte-compiled / optimized / DLL files
 *.py[cod]
@@ -47,3 +36,5 @@ coverage.xml
 
 
 settings_local.py
+
+.ipynb_checkpoints/
